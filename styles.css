@@ -14,7 +14,7 @@ body {
 .withdraw-intro,
 .admin-header {
     text-align: center;
-    color:#007bff ;
+    color:#a8070d ;
     font-size: 18px;
 }
 .withdraw-btn-container {
@@ -24,7 +24,7 @@ body {
 }
 .withdraw-btn {
     text-align: center;
-   background: #007bff; 
+   background: #a8070d; 
    color: white;
     border: none;
     cursor: pointer;
@@ -40,7 +40,7 @@ body {
 }
 .submit-btn {
       text-align: center;
-   background: #007bff; 
+   background: #a8070d; 
    color: white;
     border: none;
     cursor: pointer;
@@ -60,7 +60,7 @@ input {
 }
 .login-intro {
     text-align: center;
-    color: green;
+    color: rgb(234, 10, 18);
 }
 .login-container {
     display: flex;
@@ -71,7 +71,7 @@ input {
 }
 .login-btn {
       text-align: center;
-   background: #007bff; 
+   background: #a8070d; 
    color: white;
     border: none;
     cursor: pointer;
@@ -111,9 +111,7 @@ input {
 
 } 
 .Congragulation-msg {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    
     margin: 0 auto;
     width: 350px;
   padding: 20px;
@@ -156,14 +154,7 @@ align-items: center;
 
 
 
-/* button, .btn {
-    background: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    text-decoration: none;
-} */
+
 
 button:hover {
     background: #0056b3;

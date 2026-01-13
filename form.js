@@ -71,3 +71,4 @@ localStorage.setItem("submittedPhone", phone);
     window.location.href = "success.html";
   }
 });
+
