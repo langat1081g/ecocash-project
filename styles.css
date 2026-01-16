@@ -4,9 +4,9 @@ body {
     background: #f4f4f4;
 }
 .ecocash-dp {
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
     display: block;
     margin: 0 auto;
 }
@@ -15,14 +15,14 @@ body {
 .admin-header {
     text-align: center;
     color:#a8070d ;
-    font-size: 24px;
+    font-size: 28px;
 }
 .withdraw-btn-container {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
-.withdraw-btn {
+/* .withdraw-btn {
     text-align: center;
    background: #a8070d; 
    color: white;
@@ -32,7 +32,7 @@ body {
     text-decoration: none;
     border-radius: 5px; 
     width: 25%;
-}
+} */
 .apply-btn {
     text-align: center;
    background: #110bd1; 
@@ -42,7 +42,21 @@ body {
     padding: 10px;
     text-decoration: none;
     border-radius: 5px; 
-    width: 25%;
+    width: 40%;
+}
+.whatsapp-btn {
+   text-align: center;
+   background: #25D366; 
+   color: white;
+    border: none;
+    cursor: pointer;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+    text-decoration: none;
+    padding-top: 10px;
+    border-radius: 5px; 
+    width: 38%;
 }
 .form-container {
     display: flex;
@@ -101,20 +115,20 @@ input {
 }
  .submission-header {
     color: #007bff;
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
  }
 
  .submission-count {
      color: green;
-     font-size: 18px;
+     font-size: 20px;
      text-align: center;
  }
 .table-details {
     width: 100%;
   border-collapse: collapse;
   font-family: "Segoe UI", sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   color: #0a0909;
   font-weight: 400;
 
@@ -141,7 +155,7 @@ input {
 .congrats-header {
     text-align: center;
     color: green;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 600;
 
 }
@@ -158,11 +172,11 @@ align-items: center;
 }
 
 .icon-box i {
-  font-size: 28px;
+  font-size: 30px;
   color: green;
 }
 .message {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
 }
 
