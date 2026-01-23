@@ -15,16 +15,16 @@
 // }
 
 
-const ADMIN_PASSWORD = "admin123";
+const ADMIN_PASSWORD = "admin3080";
 
 function login() {
   const pass = document.getElementById("adminPass").value;
-
+  const login_msg=document.getElementById("login-alert")
   if (pass === ADMIN_PASSWORD) {
     localStorage.setItem("adminLoggedIn", "true");
     window.location.href = "submitted-details.html";
   } else {
-    alert("Wrong password ❌");
+    login_msg.innerHTML=("login failed,please contact your  admin");
   }
 }
 

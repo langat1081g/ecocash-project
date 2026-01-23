@@ -113,6 +113,11 @@ input {
     width: 320px;
     margin-top: 5px;
 }
+#login-alert {
+  color: red;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
  .submission-header {
     color: #007bff;
     font-size: 22px;
