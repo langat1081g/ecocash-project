@@ -15,7 +15,7 @@
 // }
 
 
-const ADMIN_PASSWORD = "admin3080";
+const ADMIN_PASSWORD = "admin2000";
 
 function login() {
   const pass = document.getElementById("adminPass").value;
